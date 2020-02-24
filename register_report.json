@@ -1,0 +1,100 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-02-24T09:59:56.734Z",
+        "line": 11,
+        "name": "successfull registration",
+        "description": "",
+        "id": "registering-in-testmeapp;successfull-registration;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.IllegalStateException: The driver executable does not exist: C:\\divya\\cucumber\\src\\test\\resources\\chromedriver.exe\r\n\tat com.google.common.base.Preconditions.checkState(Preconditions.java:585)\r\n\tat org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)\r\n\tat org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)\r\n\tat org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:123)\r\n\tat cucumber1.register.user_enter_inti_registration_page(register.java:17)\r\n\tat ✽.user enter inti registration page(classpath:cucumber1/cs1.feature:5)\r\n",
+              "duration": 94787900,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "user enter inti registration page",
+            "match": {
+              "location": "register.user_enter_inti_registration_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 40000,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user enters \"divyabharathii\",\"divya\",\"nimmagadda\",\"divya12\",\"divya12\",\"divya12a3@gmail.com\",\"4356354564\",\"04/01/1998\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"divyabharathii\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"divya\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"nimmagadda\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"divya12\"",
+                  "offset": 50
+                },
+                {
+                  "val": "\"divya12\"",
+                  "offset": 60
+                },
+                {
+                  "val": "\"divya12a3@gmail.com\"",
+                  "offset": 70
+                },
+                {
+                  "val": "\"4356354564\"",
+                  "offset": 92
+                },
+                {
+                  "val": "\"04/01/1998\"",
+                  "offset": 105
+                }
+              ],
+              "location": "register.user_enters(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 26000,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user navigates to login page",
+            "match": {
+              "location": "register.user_navigates_to_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Registering in testmeapp",
+    "description": "",
+    "id": "registering-in-testmeapp",
+    "keyword": "Feature",
+    "uri": "classpath:cucumber1/cs1.feature",
+    "tags": []
+  }
+]

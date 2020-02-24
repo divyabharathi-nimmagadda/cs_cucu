@@ -1,0 +1,76 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-02-24T10:04:40.286Z",
+        "line": 11,
+        "name": "login successfull",
+        "description": "",
+        "id": "login;login-successfull;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.IllegalStateException: The driver executable does not exist: C:\\divya\\cucumber\\src\\test\\resources\\chromedriver.exe\r\n\tat com.google.common.base.Preconditions.checkState(Preconditions.java:585)\r\n\tat org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)\r\n\tat org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)\r\n\tat org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:123)\r\n\tat cucumber2.login1.display_the_login_page(login1.java:16)\r\n\tat ✽.display the login page(classpath:cucumber2/cs2.feature:5)\r\n",
+              "duration": 65330700,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "display the login page",
+            "match": {
+              "location": "login1.display_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 39400,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user enters \"Lalitha\",\"password123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Lalitha\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"password123\"",
+                  "offset": 22
+                }
+              ],
+              "location": "login1.user_enters(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 23900,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user navigate main page",
+            "match": {
+              "location": "login1.user_navigate_main_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "classpath:cucumber2/cs2.feature",
+    "tags": []
+  }
+]

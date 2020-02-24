@@ -1,0 +1,66 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-02-24T10:05:38.109Z",
+        "line": 5,
+        "name": "succefull search",
+        "description": "",
+        "id": "add-to-cart;succefull-search",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.IllegalStateException: The driver executable does not exist: C:\\divya\\cucumber\\src\\test\\resources\\chromedriver.exe\r\n\tat com.google.common.base.Preconditions.checkState(Preconditions.java:585)\r\n\tat org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)\r\n\tat org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)\r\n\tat org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:123)\r\n\tat cucumber3.Add.login_page_successfull(Add.java:20)\r\n\tat ✽.login page successfull(classpath:cucumber3/addtocart.feature:6)\r\n",
+              "duration": 59391500,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "login page successfull",
+            "match": {
+              "location": "Add.login_page_successfull()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 33800,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "search products to add",
+            "match": {
+              "location": "Add.search_products_to_add()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 22500,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "processing to pay",
+            "match": {
+              "location": "Add.processing_to_pay()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "add to cart",
+    "description": "",
+    "id": "add-to-cart",
+    "keyword": "Feature",
+    "uri": "classpath:cucumber3/addtocart.feature",
+    "tags": []
+  }
+]
